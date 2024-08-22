@@ -13,11 +13,11 @@ import { AuthModule } from './auth/auth.module';
     TypeOrmModule.forRootAsync({
       useFactory: () => ({
         type: 'mysql',
-        host: 'localhost',
+        host: '127.0.0.1',
         port: 3306,
         username: 'root',
-        password: '',
-        database: 'db-market',
+        password: '(KAWn+y!&H&(',
+        database: 'misn6646_db-market',
         entities: [User, Store],
         synchronize: false,
       }),
